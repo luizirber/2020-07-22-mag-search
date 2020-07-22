@@ -1,0 +1,9 @@
+name: 2020-07-22-mag-search
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - snakemake-minimal=5.20.1
+  - pandas
+  - ipython
