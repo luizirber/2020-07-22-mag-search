@@ -2,6 +2,8 @@
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/luizirber/2020-07-22-mag-search/master)
 
+Companion repo for https://blog.luizirber.org/2020/07/23/mag-results
+
 ## Setup
 
 All processing and analysis scripts were performed using the conda environment specified in `environment.yml`.

@@ -7,3 +7,5 @@ dependencies:
   - snakemake-minimal=5.20.1
   - pandas
   - ipython
+  - jupyterlab
+  - xlrd
