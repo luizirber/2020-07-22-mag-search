@@ -1,6 +1,6 @@
 # Searching 2,613 MAGs in SRA metagenomes
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/luizirber/2020-07-22-mag-search/master)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/luizirber/2020-07-22-mag-search/master?filepath=index.ipynb)
 
 Companion repo for https://blog.luizirber.org/2020/07/23/mag-results
 
