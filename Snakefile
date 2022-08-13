@@ -14,13 +14,13 @@ rule all:
 rule download_tara_runinfo:
   output: 'inputs/tara_runinfo.csv'
   shell: """
-    wget 'http://trace.ncbi.nlm.nih.gov/Traces/sra/sra.cgi?save=efetch&rettype=runinfo&db=sra&term="173486"[bioproject]' -O {output}
+    esearch -db sra -query '"173486"[bioproject]' | efetch -format runinfo > {output}
   """
 
 rule download_parks_8k:
   output: "inputs/parks_runinfo.csv"
   shell: """
-    wget 'http://trace.ncbi.nlm.nih.gov/Traces/sra/sra.cgi?save=efetch&rettype=runinfo&db=sra&term="348753"[bioproject]' -O {output}
+    esearch -db sra -query '"348753"[bioproject]' | efetch -format runinfo > {output}
   """
 
 rule download_article_tables_stats:
